@@ -1,0 +1,52 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+}
+
+.header {
+  padding: 20px;
+  background: rgba(128, 128, 128, 0.247);
+  text-align: center;
+}
+
+.header > h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.header > p {
+  font-size: 1.2rem;
+}
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  background: rgba(128, 128, 128, 0.247);
+  text-align: center;
+}
+
+.footer > p {
+  font-size: 1.2rem;
+}
+
+.footer > a {
+  color: black;
+  margin-right: 10px;
+}
+
+.sy-pager > li > a {
+  background-color: white !important;
+}
+
+.sy-pager > li.sy-active > a {
+  background-color: #6a097d !important;
+}
+
+.download-btn {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
